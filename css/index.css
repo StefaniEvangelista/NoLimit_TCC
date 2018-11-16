@@ -1,0 +1,95 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.secOne{
+    height: 100vh;
+    width: 100%;
+    background: url(../img/fundo1.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-bottom: 1px solid #7ED957;
+    box-sizing: border-box;
+}
+
+.secOne div{
+    width: 60%;
+    background-color: rgba(255, 255, 255, 0.88);
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-top: 100px;
+    position: relative;
+}
+
+.secOne p{
+    width: 90%;
+    text-align: justify;
+    font-size: 22px;
+    margin-bottom: 60px;
+}
+
+.secOne a{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    background-color: #7ED957;
+    box-shadow: 0 0 5px #7ED957;
+    padding: 8px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.secTwo{
+    height: 100vh;
+    width: 100%;
+    background: url(../img/fundo2.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    border-bottom: #7ED957 1px solid;
+}
+
+.secTwo div{
+    background-color: rgba(255, 255, 255, 0.88);
+    height: 75%;
+    width: 60%;
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.secTwo div p{
+    width: 95%;
+    text-align: center;
+    background-color: #7ED957;
+    color: black;
+    height: calc(98% / 6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 15px 15px;
+    font-size: 18px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #7ED957;
+}
+
+
